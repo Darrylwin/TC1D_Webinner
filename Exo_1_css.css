@@ -1,0 +1,29 @@
+/* p {
+    font-size: 18px;
+    color: green;
+    background-color:burlywood;
+} 
+
+* {
+    background-color:antiquewhite;
+}
+
+h1,h2 {
+    color:fuchsia;
+}*/
+
+div p{
+    color: brown;
+}
+
+#p3{
+    color:darkslategrey;
+}
+
+.rouge {
+    color: red;
+}
+
+.taille {
+    font-size: 20px;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire</title>
+  </head>
+  <body>
+    <form action="#" method="post">
+      <label for="txtnom">Votre nom :</label>
+      <input
+        type="text"
+        id="txtnom"
+        name="txtnom"
+        placeholder="Entrer votre nom :"
+        maxlength="10"
+        minlenght="2"
+        size="6"
+        title="Votre nom"
+      />
+
+      <label for="txteye">Couleur des yeux:</label>
+      <input type="color" id="txteye" />
+
+      <label for="number">Entrer votre age:</label>
+      <input type="number" min="0" value="0" max="100" />
+
+      <textarea name="txtifo" id="txtinfo" cols="30" rows="10"></textarea>
+
+      <label for="txtsexe">Masculin</label>
+      <input type="radio" name="txtsexe" id="txtsexe" />
+      <br />
+      Mes loisirs:
+      <br />
+      <label for="txtjog">Jogging</label>
+      <input type="checkbox" name="txtjog" id="txtjog" />
+      <label for="txtswim">Natation</label>
+      <input type="checkbox" name="txtfree" id="txtswim" />
+      <label for="txtdance">Danse</label>
+      <input type="checkbox" name="txtdance" id="txtfree" />
+
+      <br />
+      <label for="txtNaiss">Date de naissance:</label>
+      <input type="date" name="txtNaiss" id="txtNaiss" /> <br />
+      <label for="txtmail">Votre email:</label>
+      <input
+        type="email"
+        name="txtmail"
+        id="txtmail"
+        value="logossoudarryl@yahoo.com"
+        readonly
+      />
+      <br />
+      <br />
+      <br />
+      <label for="txtphoto">Votre photo</label>
+      <input
+        type="image"
+        src="Images/one_piece_fanart_by_ruby__art_db1xezc-375w-2x.jpg"
+        name="txtphoto"
+        id="txtphoto"
+      />
+      <br />
+      <br />
+      <br />
+      <br />
+      <label for="txtcv">Votre cv</label>
+      <input type="file" name="txtcv" id="txtcv" />
+      <label for="txtchoice"> Votre préféré</label>
+      <select name="txtchoice" id="txtchoice">
+        <option value="Pizza">Moulé</option>
+        <option value="Ayimolou">Watchi</option>
+        <option value="Atcheke">Garba</option>
+        <option value="Haricot">Béton</option>
+        <option value="Patos">Akoumè</option>
+      </select>
+      <br />
+      <br />
+      <select name="txtchoice" id="txtchoice" size="10" multiple>
+        <option value="" selected>Votre choix ...</option>
+        <option value="Pizza">Moulé</option>
+        <option value="Ayimolou">Watchi</option>
+        <option value="Atcheke">Garba</option>
+        <option value="Haricot">Béton</option>
+        <option value="Patos">Akoumè</option>
+      </select>
+      <br /><br /><br />
+      <button>Bouton valider</button>
+      <input
+        type="submit"
+        name="btnsend"
+        id="btnsend"
+        value="Envoyer le Formulaire"
+      />
+      <input
+        type="reset"
+        name="btncancel"
+        id="btncancel"
+        value="Annuler le formulaire"
+      />
+      <input type="button" name="btnbtn" id="btnbtn" />
+      <label for="pass">Code secret</label>
+      <input type="password" name="" id="" />
+    </form>
+  </body>
+</html>
