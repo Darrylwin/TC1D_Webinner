@@ -1,0 +1,66 @@
+/*/body
+{
+background:linear-gradient(red,orange,yellow,green,blue,indigo,violet);
+}*/
+/* p {
+    font-size: 18px;
+    color: green;
+    background-color:burlywood;
+} 
+
+* {
+    background-color:antiquewhite;
+}
+
+h1,h2 {
+    color:fuchsia;
+}
+
+div p{
+    color: brown;
+} 
+
+#p3{
+    color:darkslategrey;
+}
+
+.rouge {
+    color: red;
+}
+
+.taille {
+    font-size: 20px;
+} */
+
+body {
+    background-color: palevioletred;
+    background-image: url("Kyotaka Ayanokoji.jpeg");
+    background-size: 20px;
+    background-repeat: repeat-y;
+}
+
+p {
+    background-color: cadetblue;
+    color: blanchedalmond;
+    text-align: center;
+    text-decoration: overline;
+    text-decoration-color: brown;
+    text-transform: uppercase;
+    text-indent: 1cm;
+    letter-spacing: -2px;
+    word-spacing: 5px;
+    line-height: 15px;
+    direction: rtl;
+    text-shadow: 2px -2px 5px green;
+
+}
+
+h1,
+h2 {
+    font-size: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-variant: small-caps;
+    font: normal bolder 14px cambria;
+}

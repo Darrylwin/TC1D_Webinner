@@ -1,0 +1,29 @@
+p {
+    border-top-style: dotted;
+    border-top-color: brown;
+
+    border-bottom-style: dashed;
+    border-bottom-color: darkblue;
+
+    border-left-style: double;
+    border-left-color: darkviolet;
+
+    border-right-style: solid;
+    border-right-color: darkslategray;
+
+    border-width: 7px;
+    border-radius: 15px;
+
+    padding: 10px;
+
+    color:rgb(112, 88, 57);
+    text-align: center;
+}
+
+body {
+    background-image: url("Ayanokoji Kiyotaka 🖤✨- Classroom Of The Elite Season 3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}

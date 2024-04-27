@@ -1,0 +1,7 @@
+#image_arrondie {
+    border: 10px solid black;
+    box-shadow: 0 0 20px yellow;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+} 

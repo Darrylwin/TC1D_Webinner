@@ -1,0 +1,15 @@
+{
+  "name": "boostrap",
+  "version": "1.0.0",
+  "main": "Jquey.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/jquery": "^3.5.29",
+    "bootstrap": "^4.3.1"
+  }
+}

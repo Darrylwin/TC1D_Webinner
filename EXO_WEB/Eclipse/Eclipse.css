@@ -1,0 +1,4 @@
+body {
+    background: radial-gradient(rgb(15, 13, 13) 50%, rgb(198, 196, 196) 5%, rgb(78, 78, 3));
+    background-attachment: fixed;
+}

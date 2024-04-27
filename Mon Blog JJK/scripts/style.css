@@ -1,0 +1,10 @@
+body{
+margin: 0 auto;
+}
+
+section.Menu{
+    background: url("../Images/photo_2024-04-13_08-17-39.jpg");
+    height: 50vh;
+    background-size: cover;
+}
+
