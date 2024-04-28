@@ -1,10 +1,211 @@
-body{
-margin: 0 auto;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Corps de la page */
+
+body {
+    color: whitesmoke;
+    font-family: "Inter";
+    height: 500vh;
+    background: rgb(0, 19, 36);
+    background: rgb(0, 19, 36);
+    background: -moz-linear-gradient(90deg, rgba(0, 19, 36, 1) 25%, rgba(75, 0, 130, 0.8925538477109594) 77%, rgba(85, 16, 128, 0.9529236865644696) 88%, rgba(84, 15, 128, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0, 19, 36, 1) 25%, rgba(75, 0, 130, 0.8925538477109594) 77%, rgba(85, 16, 128, 0.9529236865644696) 88%, rgba(84, 15, 128, 1) 100%);
+    background: linear-gradient(90deg, rgba(0, 19, 36, 1) 25%, rgba(75, 0, 130, 0.8925538477109594) 77%, rgba(85, 16, 128, 0.9529236865644696) 88%, rgba(84, 15, 128, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#001324", endColorstr="#540f80", GradientType=1);
+    display: flex;
+    flex-direction: column;
 }
 
-section.Menu{
-    background: url("../Images/photo_2024-04-13_08-17-39.jpg");
-    height: 50vh;
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+/* Menu */
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: rgb(0, 19, 36);
+}
+
+.header>ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.header li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 20px;
+    margin: 8px;
+    font-size: 20px;
+}
+
+.sous-ul {
+    list-style: none;
+    display: none;
+    top: 60px;
+    left: 0;
+    position: absolute;
+    background: rgb(0, 19, 36);
+}
+
+.a-sous-nav li a:hover {
+    background: #1a0431;
+}
+
+.a-sous-nav {
+    position: relative;
+    width: max-content;
+}
+
+.a-sous-nav:hover .sous-ul {
+    display: block;
+}
+
+/* Titre */
+.grand-titre {
+    color: white;
+    font-size: 100px;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+a.scroll {
+    color: white;
+    /* text-decoration: none;
+    position: absolute;
+    left: 5%;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24 */
+}
+
+/* Persos phares */
+
+.Persos {
+    background: rgb(6, 43, 75);
+    background: linear-gradient(90deg, rgba(6, 43, 75, 0.9759181260394783) 31%, rgba(42, 10, 85, 0.942304680661327) 66%, rgba(99, 32, 154, 0.9198957170758929) 85%, rgba(151, 90, 189, 1) 100%);
+    min-height: 500px;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.persos-box {
     background-size: cover;
+    background-image: url("../Images/Images/Satoru Gojo.jpeg");
+    min-width: 400px;
+    height: 500px;
+    flex: 1;
 }
 
+.perso1 {
+    background-image: url("../Images/3f3a1985-1ec8-412f-b7f6-0c2f5a07c9ab.jpeg");
+}
+
+.perso2 {
+    background-image: url("../Images/f9e8ba3c-32ea-487b-acbf-495f6cfcd502.jpeg");
+}
+
+.perso3 {
+    background-image: url("../Images/Gojo Satoru.jpeg");
+}
+
+.perso4 {
+    background-image: url("../Images/Jujutsu game art.jpeg");
+}
+
+.perso5 {
+    background-image: url("../Images/O Calouro.jpeg");
+}
+
+.perso6 {
+    background-image: url("../Images/sukuna.jpg");
+}
+
+
+#img {
+    justify-content: center;
+}
+
+footer {
+    flex-shrink: 0;
+    border-top: 1px solid black;
+    background: rgb(0, 19, 36);
+    width: 100%;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#001324", endColorstr="#540f80", GradientType=1);
+}
+
+.contenu {
+    flex: 1 0 auto;
+}
+
+.contenu_footer {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+}
+
+.bloc_contact h3,
+.bloc_services h3,
+.bloc_reseaux h3,
+.bloc_droits h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    width: 25%;
+    margin: 0 30px;
+}
+
+.bloc_contact p,
+.bloc_droits p{
+    padding: 5px 0;
+}
+
+.liste_services,
+.liste_reseaux {
+    list-style-type: none;
+}
+
+.liste_services li,
+.liste_reseaux li {
+    padding: 2px 0;
+}
+
+.liste_services a{
+    text-decoration: none;
+    color: white;
+}
+
+.liste_services a:hover,
+.liste_reseaux a:hover{
+    color: #63209a;
+}
+
+.liste_reseaux img{
+    width: 40px;
+    margin: 10px 10px;
+}
+
+.liste_reseaux a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+/* .contenu p{
+    padding: 5vw 10vw;
+    text-align: justify;
+} */
