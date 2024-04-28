@@ -2,38 +2,51 @@
 <html lang="en">
 
 <head>
+    <link rel="icon" href="Icones/icone.jpeg">
     <link rel="stylesheet" href="scripts/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>呪術廻戦</title>
 </head>
 
 <body>
-    <section class="contenu">
-        <header class="header">
-            <ul>
-                <li><a href="#Synopsis">Synopsis</a></li>
-                <li><a href="#Arcs_Narratifs">Arcs Narratifs</a></li>
-                <li class="a-sous-nav">
-                    <a href="#Developpement">Développement</a>
-                    <ul class="sous-ul">
-                        <li><a href="#JJJK saison 2">JJK saison 2</a></li>
-                        <li><a href="#Syno S2">Synopsis S2</a></li>
-                        <li><a href="#Evos">Evenements phares</a></li>
-                        <li><a href="#Trailler">Trailer</a></li>
-                        <li><a href="#Opening">Opening</a></li>
-                        <li><a href="#Persos_Phares">Personnages phares</a></li>
-                    </ul>
-                </li>
-                <li><a href="#apropos">A propos</a></li>
-            </ul>
-        </header>
-        <div>
-            <h1 class="grand-titre">呪術廻戦</h1> <br> <br>
-            <a class="scroll" href="#">Scroll down</a>
+    <div class="main_box">
+        <input type="checkbox" id="check">
+        <div class="btn_one">
+            <label for="check">
+                <i class="material-icons" style="font-size:70px">≡</i>
+            </label>
         </div>
-    </section>
+        <div class="sidebar_menu">
+            <div class="logo">
+                <a>MENU</a>
+            </div>
+            <div class="btn_two">
+                <label for="check">
+                    <i class="material-icons" style="font-size:50px">keyboard_arrow_left</i>
+                </label>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#Synopsis">Synopsis</a></li>
+                    <li><a href="#Arcs_Narratifs">Arcs Narratifs</a></li>
+                    <li><a href="#JJK saison 2">JJK saison 2</a></li>
+                    <li><a href="#Syno S2">Synopsis S2</a></li>
+                    <li><a href="#Evos">Evenements phares</a></li>
+                    <li><a href="#Trailler">Trailer</a></li>
+                    <li><a href="#Opening">Opening</a></li>
+                    <li><a href="#Persos_Phares">Personnages phares</a></li>
+                    <li><a href="#apropos">A propos</a></li>
+                </ul>     
+            </div>
+        </div>
+    </div>
     <br>
+    <div>
+        <h1 class="grand-titre">Jujutsu Kaisen - 呪術廻戦</h1> <br> <br>
+    </div>
     <section class="contenu">
         <h2 id=Synopsis>Synopsis:</h2> <br>
         <article>
@@ -51,7 +64,7 @@
         </article>
     </section>
     <section class="contenu">
-        <h2 id="Arcs_Narratifs" class="Arcs_Narratifs">Arcs naratifs: </h2> <br />
+        <h2 id="Arcs_Narratifs">Arcs naratifs: </h2> <br />
         <article>
             <ol>
                 <li>
@@ -96,16 +109,18 @@
             </ol>
         </article>
     </section>
-    <br>
     <section class="contenu">
-        <h2 id="Developpement">Développement</h2> <br>
+        <h2 id="Developpement">Développement</h2> 
+        <br>
         <section>
-            <h3 id="JJK saison 2"> 呪術廻戦 シーズン2</h3> <br />
+            <h3 id="JJK saison 2">J呪術廻戦 シーズン2</h3> <br />
             <div>
-                <img id="img" src="Images/photo_2024-04-13_08-22-55.jpg" height="1000px" alt="jjk saison 2">
+                <img src="Images/photo_2024-04-13_08-22-55.jpg" height="700px" alt="jjk saison 2">
             </div>
         </section>
-        <h4 id="Syno S2">Synopsis S2</h4> <br>
+        <br>
+        <h3 id="Syno S2">Synopsis S2</h3>
+        <br>
         <section>
             <article>
                 <p>
@@ -118,8 +133,9 @@
                     entrelacés, révélant des mystères dans le monde des exorcistes.
                 </p>
             </article>
-        </section>
-        <h4 id="Evos">Evenements phares</h4> <br />
+        </section> <br>
+        <h3 id="Evos">Evenements phares</h3> 
+        <br />
         <section>
             <article>
                 <p>
@@ -144,35 +160,31 @@
                 </ul>
                 </p>
             </article>
-        </section>
-        <h4 id="Trailer">Trailer (シーズン2)</h4> <br />
-        <section>
+        </section> <br>
+        <h3 id="Trailler">Trailer (シーズン2)</h3>
+        <br>
+        <section> 
             <article>
                 <video src="Vidéos/00.mp4" controls="controls" width="700px"></video>
             </article>
-        </section>
+        </section> <br>
+        <h3 id="Opening">Opening</h3>
         <br>
-        <h4 id="Opening">Opening</h4> <br>
         <section>
             <article>
                 <audio src="Audios/JJK SpecialZ.mp3" controls="controls"></audio>
             </article>
-        </section>
-        <h4 id="Persos_Phares" class="titre-section">Personnages phares</h4> <br />
-        <section>
+        </section> <br>
+        <h3 id="Persos_Phares">Personnages phares</h3> 
+        <br /> <br>
+        <section> 
             <div class="Persos">
-                <!-- <img src="Images/Jujutsu game art.jpeg">
-                <img src="Images/Satoru Gojo.jpeg">
-                <img src="Images/https___t_me_killerlookwallpaper.jpeg">
-                <img src="" >
-                <img src="Images/jujutsu_kaisen___sukuna_by_icayenne_dei93bt-350t-2x.jpg">
-                <img src="Images/f9e8ba3c-32ea-487b-acbf-495f6cfcd502.jpeg"> -->
-                <a href="" class="persos-box perso1"></a>
-                <a href="" class="persos-box perso2"></a>
-                <a href="" class="persos-box perso3"></a>
-                <a href="" class="persos-box perso4"></a>
-                <a href="" class="persos-box perso5"></a>
-                <a href="" class="persos-box perso6"></a>
+                <a href="#" class="persos-box perso1"></a>
+                <a href="#" class="persos-box perso2"></a>
+                <a href="#" class="persos-box perso3"></a>
+                <a href="#" class="persos-box perso4"></a>
+                <a href="#" class="persos-box perso5"></a>
+                <a href="#" class="persos-box perso6"></a>
             </div>
         </section>
     </section>
@@ -206,7 +218,8 @@
             </div>
             <div class="bloc_droits">
                 <p>
-                    <h3>Droits d'Auteur: </h3> LOGOSSSOU Darryl-win
+                    <h3>Droits d'Auteur: </h3> 
+                    <p>LOGOSSSOU Darryl-win</p>
                 </p>
             </div>
         </div>
