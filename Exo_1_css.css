@@ -178,3 +178,38 @@ h2 {
 .menu_h li a:hover{
     background: #11111111;
 }
+
+/* Manipulation d'images */
+
+.gallerie{
+    height: 250px;
+    width: 200px;
+}
+
+.gallerie-flou{
+    filter: blur(30px);
+}
+
+.gallerie-luminosite{
+    filter: brightness(300%);
+}
+
+.gallerie-contrast{
+    filter: contrast(180%);
+}
+
+.gallerie-blanc-noir{
+    filter: grayscale(150%);
+}
+
+.gallerie-inverssion{
+    filter: invert(100%);
+}
+
+.gallerie-transparence{
+    filter: opacity(30%);
+}
+
+.gallerie-saturation{
+    filter: saturate(300%);
+}

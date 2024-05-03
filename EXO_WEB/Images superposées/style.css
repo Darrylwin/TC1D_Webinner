@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+  height: 1000px;
+  width: 1000px;
+  margin: auto;
+}
+
+.image {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image1 {
+  width: 1000px;
+}
+
+.image2 {
+  width: 750px;
+}
+
+.image3 {
+  width: 500px;
+}
