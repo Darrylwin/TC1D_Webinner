@@ -1,7 +1,7 @@
 {
     "editor.suggest.shareSuggestSelections": false,
     "files.autoGuessEncoding": true,
-    "workbench.colorTheme": "Material Theme Ocean",
+    "workbench.colorTheme": "Material Theme Ocean High Contrast",
     "workbench.editor.autoLockGroups": {
         "default": true
     },
