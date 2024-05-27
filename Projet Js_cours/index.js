@@ -121,3 +121,54 @@ console.log("==Parcourir un tableau==")
 for (let index = 0; index < fruits.length; index++) {
     console.log(fruits[index]);
 }
+
+// Quelques fonctions des tableaux
+
+console.log("Nombre de fruits: ",fruits.length);
+
+console.log("Nouveaux fruit : ",fruits.push("Kiwi","pomme")); // on peut ajouter +++ elements à la fin du tableau avec la fonction push
+console.log(fruits);
+
+console.log(fruits.unshift("Orange","Mangue","Mandarine","Pamplemouse")); // ajoute des elements au debut du tableau
+console.log(fruits);
+
+console.log(fruits.shift()); // suppimme le 1er élement du tableau
+console.log(fruits);
+
+console.log(fruits.pop());
+console.log(fruits);
+
+console.log(fruits.sort); // tri de tableau
+console.log(fruits);
+
+                // Les fonctions en javascript
+                console.log("------------Déclration de fonction en .js-----------");
+
+function welcome() {
+    console.log("Hello world!");
+}
+welcome();
+
+
+/*
+ Affichage d'un message
+ @return [] n'affiche rien
+*/
+function ia(){
+    console.log("Je suis une IA en cours de creation");
+}
+ia();
+
+// funcction avec parametres
+
+
+/*
+@param a type entier
+@param b type entier
+@return {*}
+*/
+function somme(a,b){
+
+    return a + b;
+}
+console.log(somme(4,5));
