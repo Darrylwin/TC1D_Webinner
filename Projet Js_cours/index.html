@@ -6,6 +6,7 @@
      <link href="style.css" rel="stylesheet">
 </head>
 <body>
+    <p id="date_heure"></p>
 <div>
      <button onclick="f_red();" >Rouge</button>
      <button onclick="f_green();">Vert</button>
@@ -21,6 +22,20 @@
     <button onclick="f_zoom('-');">Zoom -</button>
     <button onclick="f_zoom('');">Zoom normale</button>
     <button onclick="f_zoom('+');">Zoom +</button>
+</div>
+<div>
+    <h2>Mini Messenger</h2>
+    <label> Message : <input type="text" id="entrer"> </label>
+    <button onclick="f_envoyer();">Envoyer</button>
+    <p id="msg"></p>
+</div>
+
+<div>
+    <h2>Mini Messenger 2</h2>
+    <label> Message : <input type="text" id="entrer_2"> </label>
+    <button onclick="f_envoyer2();">Envoyer</button>
+    <button id="btn">Soumettre</button>
+    <p id="msg_2"></p>
 </div>
 <script src="script.js"></script>
 </body>
