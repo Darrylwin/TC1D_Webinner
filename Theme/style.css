@@ -1,0 +1,66 @@
+.theme1 header, .theme1 nav,
+.theme1 section,
+.theme1 aside,
+.theme1 footer {
+
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.theme1 header{
+    height: 20vh;
+}
+
+.theme1 nav {
+    height: 10vh;
+}
+.theme1 section{
+    height:  50vh;
+}
+.theme1 aside {
+    width: 20vw;
+    height: 20vh;
+    position: absolute;
+    top: 45vh;
+    right: 3vw;
+}
+.theme1 footer{
+    height: 10vh;
+}
+.theme2 header, .theme2 nav,
+.theme2 section,
+.theme2 aside,
+.theme2 footer {
+
+    border: 1px solid hotpink;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: darkcyan;
+}
+.theme2 header{
+    height: 20vh;
+}
+.theme2 nav {
+    float:  left;
+    margin-right: 2vw;
+    width: 10vw;
+    height: 50vh;
+}
+.theme2 section {
+    float:  left;
+    margin-right:2vw;
+    width: 70vw;
+    height: 50vh;
+}
+.theme2 aside {
+    width: 10vw;
+    float: right;
+    height: 50vh;
+
+}
+.theme2 footer {
+    height: 20vh;
+    clear:both;
+}
